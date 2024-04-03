@@ -99,7 +99,9 @@ fun RegistrationScreen(navigationController: NavController) {
     }
 }
 
-
+/*
+    This method is used to show other approach of using navigation in compose.
+ */
 @Composable
 fun RegistrationScreen(onclick: () -> Unit) {
     Surface(
